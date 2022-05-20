@@ -4,7 +4,7 @@
 using namespace std;
 
 //int Fib_Num;
-string Temp = "01";
+//string Temp = "01";
 string temp2 = "";
 int counter = 2;
 int m;
@@ -17,9 +17,9 @@ int FIbbon(int n) {
     
     
     if (n == 1)
-        cout << 0 << endl;;
+        cout << 0 << endl;
     if (n == 2)
-        cout << 1 << endl;;
+        cout << 1 << endl;
     for (long int  i = 0; i < n - 2; i++) {
         num_next = num1 + num2;
         temp2 = to_string(num_next);
@@ -56,6 +56,8 @@ int main() {
 	//delay cherez stroki. schitai chislo i zapisivay v end stroki. kak stroka perepolnyaetsya obnulyai ee, uvelichivai counter
 	// i zapolnyai dalwe. ostanovis kogda doidew do iskomogo elemeta ravnogo polu4ennomu chislu - (counter * max dlinu stroki)
 	// glavnaya problema v zapisi chisel v end stroki. Esli ostavshihsya svobodnih mest < razmera chisla
+
+    // sdelal po drugomu v itoge
 	cout << " vvedite nomer jelaemoy cifry" << endl;
 	cin >> m;
     FIbbon(m);
